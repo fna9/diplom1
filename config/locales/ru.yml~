@@ -1,0 +1,87 @@
+ru:
+  app:
+    name: Учебный портал для студентов очной формы обучения
+  helpers:
+    sure: Вы уверены?
+    submit:
+      create: Сохранить
+      submit: Сохранить
+      update: Сохранить
+  activerecord:
+    models:
+      syllabus: Учебный план
+      group: Группа
+      page: Страница
+      subject: Предмет
+      mark: Оценка
+      student: Студент
+      teacher: Преподаватель
+      rating: Рейтинговая отчетность
+      user: Пользователь
+      message: Сообщение
+      afile: Файл
+    attributes:
+      syllabus:
+        code: Код
+        title: Название
+        level: Уровень
+        form_of_study: Форма обучения
+        training_period: Срок обучения
+      group:
+        title: Название
+        course: Курс
+        semester: Семестр
+      page:
+        visibility: Видимость
+        header: Заголовок
+        contents: Содержание
+        alias: Псевдоним
+      subject:
+        title: Название
+        type: Тип
+        type_of_reporting: Вид итоговой отчетности
+      student:
+        last_name: Фамилия
+        first_name: Имя
+        second_name: Отчество
+        b_date: День рождения
+        number_of_books: Номер зачетной книжки
+      mark:
+        mark: Оценка
+        comment: Комментарий
+      teacher:
+        last_name: Фамилия
+        first_name: Имя
+        second_name: Отчество
+        degree: Степень
+        rank: Звание
+        position: Должность
+      rating:
+        title: Название
+        type: Тип
+        offset: "Зачет"
+        min_offset: нижняя граница
+        max_offset: верхняя граница
+        necessarily: обязательность
+      user:
+        login: Имя
+        email: Почта
+        password: Пароль
+        password_confirmation: Пароль (повторно)
+      message:
+        header: Заголовок
+        text: Текст
+      afile:
+        description: Описание
+        
+
+
+
+
+  views:
+    pagination:
+      first: ⇤
+      last: ⇥
+      previous: ←
+      next: →
+      truncate: …

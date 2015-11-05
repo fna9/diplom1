@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @rating.title %>
+</p>
+
+<p>
+  <strong>Type:</strong>
+  <%= @rating.type %>
+</p>
+
+<p>
+  <strong>Offset:</strong>
+  <%= @rating.offset %>
+</p>
+
+<p>
+  <strong>Min offset:</strong>
+  <%= @rating.min_offset %>
+</p>
+
+<p>
+  <strong>Max offset:</strong>
+  <%= @rating.max_offset %>
+</p>
+
+<p>
+  <strong>Necessarily:</strong>
+  <%= @rating.necessarily %>
+</p>
+
+<%= link_to 'Edit', edit_rating_path(@rating) %> |
+<%= link_to 'Back', ratings_path %>

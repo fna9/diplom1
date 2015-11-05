@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Code:</strong>
+  <%= @syllabus.code %>
+</p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @syllabus.title %>
+</p>
+
+<p>
+  <strong>Level:</strong>
+  <%= @syllabus.level %>
+</p>
+
+<p>
+  <strong>Form of study:</strong>
+  <%= @syllabus.form_of_study %>
+</p>
+
+<p>
+  <strong>Training period:</strong>
+  <%= @syllabus.training_period %>
+</p>
+
+<%= link_to 'Edit', edit_syllabus_path(@syllabus) %> |
+<%= link_to 'Back', syllabuses_path %>

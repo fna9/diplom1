@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  code: MyString
+  title: MyString
+  level: 1.5
+  form_of_study: MyString
+  training_period: 2015-11-02
+
+two:
+  code: MyString
+  title: MyString
+  level: 1.5
+  form_of_study: MyString
+  training_period: 2015-11-02

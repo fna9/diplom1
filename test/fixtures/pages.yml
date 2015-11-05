@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  visibility: false
+  header: MyString
+  contents: MyText
+  alias: MyString
+
+two:
+  visibility: false
+  header: MyString
+  contents: MyText
+  alias: MyString

@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  type: 
+  offset: 1
+  min_offset: 1
+  max_offset: 1
+  necessarily: false
+
+two:
+  title: MyString
+  type: 
+  offset: 1
+  min_offset: 1
+  max_offset: 1
+  necessarily: false
