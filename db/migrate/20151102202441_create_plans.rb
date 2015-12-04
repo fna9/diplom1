@@ -1,6 +1,6 @@
-class CreateSyllabuses < ActiveRecord::Migration
+class CreatePlans < ActiveRecord::Migration
   def change
-    create_table :syllabuses do |t|
+    create_table :plans do |t|
       t.string :code, :null => false, :unique => true
       t.string :title, :null => false
       t.float :level, :null => false

@@ -10,6 +10,59 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
- *= require_tree .
  *= require_self
+ *= require_tree .
  */
+
+#banner {
+	background: #9c9;
+	padding: 20px;
+	border-bottom: 10px solid;
+	font: small-caps 40px/40px "Sans-Serif", serif;
+	color: #367;
+	text-align: center;
+	font-style: italic;
+	
+	img {
+		float: left;
+	}
+}
+
+#notice {
+	color: #000 !important;
+	border: 2px solid red;
+	padding: 1em;
+	margin-bottom: 2em;
+	background: #9c9;
+	font: bold smaller sans-serif;
+}
+
+#columns {
+	background: #ADFFF7;
+	
+	#main {
+		margin-left: 17em;
+		padding: 1em;
+		background: red;
+	}
+	
+	#side {
+		float: left;
+		padding: 1em 2em;
+		width: 13em;
+		background: #ADFFF7;
+		
+		ul {
+			padding: 0;
+			
+			li {
+				list-style: none;
+				
+				a {
+					color: #9c9;
+					font-size: small;
+				}
+			}
+		}
+	}
+}
